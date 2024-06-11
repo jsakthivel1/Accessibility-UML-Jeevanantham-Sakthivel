@@ -317,11 +317,17 @@ ul {
 }
 
 .form-field {
+  font-size: 13px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid 3a6150;
   padding: 20px;
   display: flex;
   flex-direction: column;
+}
+
+#accept-terms  {
+  input {
+    margin-right: 16px;
+  }
 }
 
 #accept-terms {
