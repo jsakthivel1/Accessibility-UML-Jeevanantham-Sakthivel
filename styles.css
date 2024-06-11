@@ -133,9 +133,14 @@ ul {
 }
 
 .left-side h1,
-.left-side p:nth-child(2) {
+.left-side h2 {
   color: #3a6150;
   font-weight: bold;
+}
+
+.left-side h2 {
+  margin-top: 32px;
+  font-size: 24px;
 }
 
 .left-side p:nth-child(2) {
@@ -248,7 +253,7 @@ ul {
   margin-top: 40px;
   margin-left: 40px;
 
-  p:nth-child(1) {
+  h4 {
     font-size: 48px;
     font-weight: bold;
   }
@@ -346,8 +351,14 @@ input[type="radio"] {
   justify-content: space-between;
   padding: 32px 64px;
 
-  .item-1 p {
-    margin-top: 24px;
+  .item-1 {
+    h4 {
+      font-size: 32px;
+    }
+
+    p {
+      margin-top: 24px;
+    }
   }
 }
 
